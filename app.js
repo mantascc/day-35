@@ -104,7 +104,7 @@ map.whenReady(function() {
     const waypoint1Coords = fullPath[waypoint1Index];
     const waypoint1 = L.circleMarker([waypoint1Coords[1], waypoint1Coords[0]], {
         radius: 4,  // 8px diameter = 4px radius
-        fillColor: '#00ff00',
+        fillColor: '#B4E03C',
         fillOpacity: 1,
         stroke: false,
         interactive: true,  // Enable interaction
@@ -116,7 +116,7 @@ map.whenReady(function() {
     const waypoint2Coords = fullPath[waypoint2Index];
     const waypoint2 = L.circleMarker([waypoint2Coords[1], waypoint2Coords[0]], {
         radius: 4,  // 8px diameter = 4px radius
-        fillColor: '#00ff00',
+        fillColor: '#B4E03C',
         fillOpacity: 1,
         stroke: false,
         interactive: true,  // Enable interaction
